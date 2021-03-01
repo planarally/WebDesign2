@@ -65,7 +65,7 @@ header nav ul {
 
 header nav ul li {
     padding: 5px 10px;
-    border-bottom: 2px solid lavender;
+    border-top: 2px dotted lavender;
     text-align: center;
 }
 
@@ -77,26 +77,31 @@ header a {
     text-decoration: none;
 }
 
-header a:hover {
+header nav ul li a:hover {
     text-decoration: underline;
-    color: #8a6bce;
+    color: #80494f;
 }
 
-header nav ul li:last-child {
-    border-bottom: 0px;
-}
 
 section {
+    width: 90%;
     background-color: #fffac0;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 0px;
     text-align: center;
     text-transform: uppercase;
+}
+
+main img {
+    padding: 3px;
 }
 
 main img.right {
@@ -112,3 +117,83 @@ main img.center {
     margin-left: auto;
     margin-right: auto;
 }
+
+@media (min-width: 768px) {
+    section {
+        width: 90%;
+        margin: auto;
+        background-color: #c0d6ff;
+    }
+
+    header h1 {
+        font-family: 'Handlee', cursive;
+        font-size: 45px;
+        display: inline-block;
+        text-align: center;
+        height: 50px;
+        width: 500px;
+    
+    }
+
+    #logo {
+        height: 70px;
+        padding:20px;
+        float: left;
+    
+    }
+
+    #togglebutton {
+        height: 60px;
+        padding: 20px;
+        float: right;
+        margin-top: 10px;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    section {
+        width: 70%;
+        margin: auto;
+        background-color: #eaffc0;
+    }
+
+    header h1 {
+        font-family: 'Handlee', cursive;
+        font-size: 45px;
+        display: inline-block;
+        height: 50px;
+        width: 500px;
+    
+    }
+
+    #logo {
+        height: 70px;
+        padding:20px;
+        float: left;
+    
+    }
+
+    label[for=menutoggle] {
+        display: none;
+    }
+
+
+    header nav ul {
+        display: inline-block;
+        margin-top:40px;
+        margin-right: 10px;
+        float: right;
+    }
+
+    header nav ul li {
+        display: inline-block;
+        border-top: 0px;
+    }
+
+    header a {
+        font-size: 25px;
+    }
+
+}
+
