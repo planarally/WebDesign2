@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: pink;
+    background-color: #98e0d8;
     width: 100%;
 }
 
@@ -30,7 +30,7 @@ header h1 {
     margin-right: auto;
     overflow: visible;
     text-align: center;
-    color: #80494f;
+    color: #267970;
 
 }
 
@@ -65,7 +65,7 @@ header nav ul {
 
 header nav ul li {
     padding: 5px 10px;
-    border-top: 2px dotted lavender;
+    border-top: 2px dotted palegreen;
     text-align: center;
 }
 
@@ -79,13 +79,13 @@ header a {
 
 header nav ul li a:hover {
     text-decoration: underline;
-    color: #80494f;
+    color: #267970;
 }
 
 
 section {
     width: 90%;
-    background-color: #fffac0;
+    background-color: #b898e0;
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -122,7 +122,7 @@ main img.center {
     section {
         width: 80%;
         margin: auto;
-        background-color: #c0d6ff;
+        background-color: #e0a898;
     }
 
     header h1 {
@@ -155,7 +155,7 @@ main img.center {
     section {
         width: 70%;
         margin: auto;
-        background-color: #eaffc0;
+        background-color: #e0cc98;
     }
 
     header h1 {
