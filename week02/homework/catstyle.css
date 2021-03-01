@@ -120,7 +120,7 @@ main img.center {
 
 @media (min-width: 768px) {
     section {
-        width: 90%;
+        width: 80%;
         margin: auto;
         background-color: #c0d6ff;
     }
