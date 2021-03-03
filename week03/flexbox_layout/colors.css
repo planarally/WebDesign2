@@ -1,0 +1,25 @@
+/* Colors */
+
+.bg-purple {
+    background-color: rgb(154, 97, 201);
+}
+
+.bg-blue {
+    background-color: rgb(98, 146, 201);
+}
+
+.bg-green {
+    background-color: rgb(106, 187, 103);
+}
+
+.bg-yellow {
+    background-color: rgb(226, 189, 66);
+}
+
+.bg-orange {
+    background-color: rgb(214, 125, 52);
+}
+
+.bg-red {
+    background-color: rgb(187, 64, 64);
+}
