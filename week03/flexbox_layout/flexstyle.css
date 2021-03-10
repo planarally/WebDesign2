@@ -23,23 +23,6 @@ nav ul li {
 
 .logo {
     width:300px;
-    order: 1;
-}
-
-.link-1{
-    order: 2;
-}
-
-.link-2{
-    order: 3;
-}
-
-.link-3{
-    order: 4;
-}
-
-.link-4{
-    order: 5;
 }
 
 /* Media Rules */
@@ -52,27 +35,6 @@ nav ul li {
     nav ul {
         flex-direction: row;
         flex-grow: 1;
-    }
-
-    .logo {
-        width:300px;
-        order: 3;
-    }
-    
-    .link-1{
-        order: 1;
-    }
-    
-    .link-2{
-        order: 2;
-    }
-    
-    .link-3{
-        order: 4;
-    }
-    
-    .link-4{
-        order: 5;
     }
 
 }
