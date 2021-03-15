@@ -28,10 +28,16 @@
     grid-column: 1 / 4;
 }
 
+nav img {
+    display: inline;
+    min-height: 10%;
+}
+
 main p{
     font-family: 'Noto Serif', serif;
     font-size: 14px;
     line-height: 17px;
+    margin: 30px;
 }
 
 main img{
