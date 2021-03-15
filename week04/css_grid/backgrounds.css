@@ -18,3 +18,31 @@
 .tan {
     background-color: #e5cda8;
 }
+
+.sms {
+    background-image: url(img/sms.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.paprika {
+    background-image: url(img/paprika.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.stalker {
+    background-image: url(img/stalker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.startrek {
+    background-image: url(img/st4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

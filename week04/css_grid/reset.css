@@ -29,3 +29,16 @@ nav ul a:hover {
 nav ul li {
     padding-top: 30px;
 }
+
+a {
+    color: #e35b31;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
