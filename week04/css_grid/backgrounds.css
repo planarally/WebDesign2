@@ -1,0 +1,20 @@
+/* Colors */
+
+.logo {
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.red {
+    background-color: #b03a3c;
+}
+
+.orange {
+    background-color: #e35b31;
+}
+
+.tan {
+    background-color: #e5cda8;
+}

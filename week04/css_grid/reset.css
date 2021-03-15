@@ -13,5 +13,18 @@ nav ul {
 }
 
 nav ul a {
+    color: white;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    padding: 25px 10px;
 }
