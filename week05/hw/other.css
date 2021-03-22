@@ -9,7 +9,8 @@ article {
 .jumbotron {
     background-image: url(img/pikachu.png);
     background-size: cover;
-    background-position: top center;
+    background-position: bottom;
+    height: 100px;
 }
 
 .jumbotron h1{
@@ -17,17 +18,22 @@ article {
     margin: auto;
     font-family:'Chango', cursive;
     color: white;
-    padding:10px;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 700;
-    margin-top: 55px;
+}
+
+@media (min-width: 768px){
+    .jumbotron h1{
+        font-size: 70px;
+        -webkit-text-stroke-width: 5px;
+        -webkit-text-stroke-color: black;
+    }
 }
 
 @media (min-width: 1024px){
     .jumbotron h1{
-        margin-top: 80px;
         font-size: 70px;
         -webkit-text-stroke-width: 5px;
         -webkit-text-stroke-color: black;

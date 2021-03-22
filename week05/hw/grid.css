@@ -9,7 +9,7 @@
 }
 
 .segment {
-    margin: 0px 10px;
+    margin: 10px;
 }
 
 @media (min-width: 768px){
@@ -48,10 +48,6 @@
     .flex-container {
         width: 1024px;
         margin: 0px auto 20px;
-    }
-
-    .img {
-        max-width: 90%;
     }
 
     .wg-lg-25 {
