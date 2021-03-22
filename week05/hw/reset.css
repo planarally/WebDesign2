@@ -59,6 +59,11 @@ nav ul a {
     margin: 0px auto;
 }
 
+.segment img.center {
+    display: block;
+    margin: 20px auto;
+}
+
 footer {
     position: fixed;
     bottom: 0px;

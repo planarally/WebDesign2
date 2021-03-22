@@ -43,7 +43,7 @@ article {
 .pikafly {
     float: left;
     padding: 5px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .pikafly2 {
@@ -57,5 +57,10 @@ article {
         font-size: 70px;
         -webkit-text-stroke-width: 5px;
         -webkit-text-stroke-color: black;
+    }
+    .pikafly {
+        float: left;
+        padding: 5px;
+        margin-left: 30px;
     }
 }

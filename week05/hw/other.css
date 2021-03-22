@@ -3,7 +3,7 @@
 @import url("grid.css");
 
 article {
-    min-height: 250px;
+    min-height: 100px;
 }
 
 .jumbotron {
@@ -35,9 +35,24 @@ article {
     font-size: 16px;
     border-radius: 15px;
     margin: 20px auto;
-    width: AUTO;
+    width: auto;
     cursor: pointer;
   }
+
+.segment h3 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color: #474747;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.segment a {
+    color: #1396d3;
+    font-weight: 700;
+    font-style:italic;
+}
   
 @media (min-width: 768px){
     .jumbotron h1{
