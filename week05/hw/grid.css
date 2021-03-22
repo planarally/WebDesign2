@@ -50,7 +50,7 @@
         margin: 0px auto 20px;
     }
 
-    .wg-lg-25 {
+    .w-lg-25{
         width: 25%;
     }
 
@@ -58,15 +58,15 @@
         width: 33.3333%;
     }
 
-    .w-md-50{
+    .w-lg-50{
         width: 50%;
     }
 
-    .w-md-66{
+    .w-lg-66{
         width: 66.6666%;
     }
 
-    .w-md-75{
+    .w-lg-75{
         width: 75%;
     }
 

@@ -24,21 +24,21 @@ article {
     font-weight: 700;
 }
 
-h1 {
-    text-align: right;
+.button {
+    background-color: white;
+    border: none;
+    color: #b2cefe;
+    padding: 15px 30px;
+    text-align: center;
     font-family: 'Nunito', sans-serif;
-    font-weight: 100;
-    color: #858585;
-    font-size: 20px;
-}
-
-p {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-    color: black;
-    font-size: 12px;
-}
-
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 20px auto;
+    width: AUTO;
+    cursor: pointer;
+  }
+  
 @media (min-width: 768px){
     .jumbotron h1{
         font-size: 70px;

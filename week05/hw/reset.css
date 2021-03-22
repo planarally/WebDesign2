@@ -37,6 +37,42 @@ nav ul a {
     -webkit-text-stroke-color: #f2a2e8;
 }
 
+.segment h1 {
+    text-align: right;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color: #474747;
+    font-size: 25px;
+    margin: 10px 25px;
+}
+
+.segment p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 13px;
+    margin: 5px 25px;    
+}
+
+.segment img.break {
+    width: 100%;
+    margin: 0px auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    color: grey;
+    background-color: lightgrey;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 9px;
+}
+
 @media (min-width: 1024px){
     nav ul {
         width: 1024px;
