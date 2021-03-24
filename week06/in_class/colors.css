@@ -1,21 +1,44 @@
-/* Colors */
+/* Background Colors */
 
-.indigo {
+.bg-indigo {
     background-color: #2B4162;
 }
 
-.space {
+.bg-space {
     background-color: #385F71;
 }
 
-.magnolia {
+.bg-magnolia {
     background-color: #F5F0F6;
+    opacity: .7;
 }
 
-.wood {
+.bg-wood {
     background-color: #D7B377;
 }
 
-.bistro {
+.bg-bistro {
     background-color: #8F754F;
+}
+
+/* Text Colors */
+
+.txt-indigo {
+    color: #2B4162;
+}
+
+.txt-space {
+    color: #385F71;
+}
+
+.txt-magnolia {
+    color: #F5F0F6;
+}
+
+.txt-wood {
+    color: #D7B377;
+}
+
+.txt-bistro {
+    color: #8F754F;
 }
