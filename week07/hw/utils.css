@@ -1,0 +1,71 @@
+/* DISPLAY PROPERTIES */
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+@media (min-width: 768px){
+
+    .d-md-inline-block {
+        display: inline-block;
+    }
+
+    .d-md-block {
+        display: block;
+    }
+
+    .d-md-none {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .d-lg-inline-block {
+        display: inline-block;
+    }
+
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-none {
+        display: none;
+    }
+}
+
+/* SPACING PROPERTIES */
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+/* TYPOGRAPHY */
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 10vw;
+}
+
+@media (min-width: 768px){
+
+    h1 {
+        font-size: 5vw;
+    }
+
+}

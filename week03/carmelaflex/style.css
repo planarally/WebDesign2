@@ -31,7 +31,6 @@ nav ul a {
 
 nav ul a:hover {
     color: #8c163d;
-    -webkit-transition: 0.5s ease-in-out;
 }
 
 /* NAVIGATION */

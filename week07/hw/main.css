@@ -1,0 +1,35 @@
+@import url('reset.css');
+@import url('colors.css');
+@import url('grid.css');
+@import url('utils.css');
+@import url('nav.css');
+@import url('footer.css');
+
+article {
+    min-height: 250px;
+}
+
+
+.jumbotron {
+    background-image: url(img/filler.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+.jumbotron h1{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Kiwi Maru', serif;
+    color: white;
+    padding:10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    margin: 55px 30px 0px;
+}
+
+@media (min-width: 1024px){
+
+    .jumbotron h1{
+        margin: 80px 30px 0px;
+    }
+}

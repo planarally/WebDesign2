@@ -1,0 +1,43 @@
+/* Background Colors */
+
+.bg-cucumber {
+    background-color: #c4d4c9;
+}
+
+.bg-rice {
+    background-color: #f2f2f3;
+}
+
+.bg-seaweed {
+    background-color: #82aa75;
+}
+
+.bg-tobiko {
+    background-color: #fcba5f;
+}
+
+.bg-tuna {
+    background-color: #d32c27;
+}
+
+/* Text Colors */
+
+.txt-cucumber {
+    color: #c4d4c9;
+}
+
+.txt-rice {
+    color: #f2f2f3;
+}
+
+.txt-seaweed {
+    color: #82aa75;
+}
+
+.txt-tobiko {
+    color: #fcba5f;
+}
+
+.txt-tuna {
+    color: #d32c27;
+}
