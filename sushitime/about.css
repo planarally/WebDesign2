@@ -11,11 +11,11 @@ article {
 
 .jumbotron {
     background-image: url(img/rolls.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 200px;
+    min-height: 100px;
 }
 
 
@@ -23,8 +23,8 @@ article {
     article {
         min-height: 250px;
     }
-
     .jumbotron {
+        background-position: center;
         min-height: 300px;
     }
 }

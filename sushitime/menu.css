@@ -11,17 +11,18 @@ article {
 
 .jumbotron {
     background-image: url(img/roll2.jpg);
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 200px;
+    min-height: 100px;
 }
 
 
 @media (min-width: 768px){
 
     .jumbotron {
+        background-position: center;
         min-height: 300px;
     }
 }
