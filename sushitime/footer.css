@@ -18,8 +18,8 @@ footer {
 }
 
 footer img {
-    max-width: 70px;
-    padding: 5px 40px;
+    max-width: 25px;
+    padding: 2px 20px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -28,3 +28,20 @@ footer img:hover {
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+
+@media (min-width: 768px){
+
+    footer img {
+        max-width: 45px;
+        padding: 5px 20px;
+}
+}
+
+@media (min-width: 1024px){
+
+    footer img {
+        max-width: 70px;
+        padding: 5px 40px;
+}
+}
+

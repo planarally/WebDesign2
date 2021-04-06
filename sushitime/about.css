@@ -19,6 +19,40 @@ article {
     min-height: 100px;
 }
 
+.bg1 {
+    background-image: url(img/n-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url(img/salmon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg3 {
+    background-image: url(img/bowl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg4 {
+    background-image: url(img/spread.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg5 {
+    background-image: url(img/n-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media (min-width: 768px){
     article {
