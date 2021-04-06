@@ -13,11 +13,19 @@
 }
 
 .bg-tobiko {
-    background-color: #fcba5f;
+    background-color: #de760d;
+}
+
+.bg-shrimp {
+    background-color: #efcfbd;
 }
 
 .bg-tuna {
     background-color: #d32c27;
+}
+
+.bg-black {
+    background-color: #000000;
 }
 
 /* Text Colors */
@@ -35,9 +43,17 @@
 }
 
 .txt-tobiko {
-    color: #fcba5f;
+    color: #de760d;
+}
+
+.txt-shrimp {
+    color: #efcfbd;
 }
 
 .txt-tuna {
     color: #d32c27;
+}
+
+.txt-black {
+    color: #000000;
 }

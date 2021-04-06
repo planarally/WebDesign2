@@ -4,6 +4,7 @@
 @import url('utils.css');
 @import url('nav.css');
 @import url('footer.css');
+@import url('text.css');
 
 article {
     min-height: 250px;
@@ -19,6 +20,26 @@ article {
     min-height: 100px;
 }
 
+.bg1 {
+    background-image: url(img/n-1.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg2 {
+    background-image: url(img/salad.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg3 {
+    background-image: url(img/salad2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @media (min-width: 768px){
 
@@ -26,4 +47,12 @@ article {
         background-position: center;
         min-height: 300px;
     }
+}
+
+@media (min-width: 1196px){
+
+    article {
+        min-height: 500px;
+    }
+
 }

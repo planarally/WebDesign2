@@ -1,0 +1,83 @@
+b {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 5vh;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    font-size: 5vh;
+}
+
+h3 {
+    font-family: 'Kiwi Maru', serif;
+    font-size: 2.5vh;
+}
+
+h4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 2.5vh;
+}
+
+p {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.linky {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 50px 15px;
+    border-left: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.linky:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 1196px){
+
+    article {
+        min-height: 500px;
+    }
+
+    .linky {
+        background-color: rgba(255, 255, 255, 0.6);
+        text-align: center;
+        padding: 150px 15px;
+        border-left: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        border-radius: 4px;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    h1 {
+        font-size: 6vh;
+    }
+    
+    h2 {
+        font-size: 6vh;
+    }
+    
+    h3 {
+        font-size: 4vh;
+    }
+    
+    h4 {
+        font-weight: 600;
+    }
+
+}

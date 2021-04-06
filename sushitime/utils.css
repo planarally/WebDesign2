@@ -12,6 +12,12 @@
     display: none;
 }
 
+.dashed-l {
+    border-bottom: dashed;
+    border-top: dashed;
+    padding: 3px;
+}
+
 @media (min-width: 768px){
 
     .d-md-inline-block {
@@ -56,16 +62,4 @@
 
 .text-center {
     text-align: center;
-}
-
-h1 {
-    font-size: 10vw;
-}
-
-@media (min-width: 768px){
-
-    h1 {
-        font-size: 5vw;
-    }
-
 }
