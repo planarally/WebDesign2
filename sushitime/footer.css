@@ -1,0 +1,14 @@
+footer {
+    display:flex;
+    width: 100%;
+    color: grey;
+    background-color: lightgrey;
+    font-size: 11px;
+    padding: 9px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:30px;
+}
+

@@ -9,9 +9,22 @@ article {
     min-height: 100px;
 }
 
+.jumbotron {
+    background-image: url(img/rolls.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 200px;
+}
+
+
 @media (min-width: 768px){
     article {
         min-height: 250px;
     }
-}
 
+    .jumbotron {
+        min-height: 300px;
+    }
+}

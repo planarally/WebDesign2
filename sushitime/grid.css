@@ -52,7 +52,7 @@
 
 /* LARGE SCREENS (DESKTOP) */
 
-@media (min-width: 1024px){
+@media (min-width: 1196px){
 
     .flex-container {
         width: 1024px;
