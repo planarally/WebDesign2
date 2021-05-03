@@ -1,0 +1,115 @@
+/* Phone n General */
+
+header {
+	top: 0;
+    width: 100%;
+}
+
+#menutoggle {
+    display: none;
+}
+
+#logo {
+    height: auto;
+    max-width: 60vw;
+    padding: 20px;
+    padding-left: 25px;
+}
+
+#menuimage {
+    max-width: 10vw;
+    height: auto;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+header nav ul {
+    display: none;
+    padding-left: 0px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#menutoggle:checked + ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    margin-top: 10px;
+    font-family: 'New Rocker', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+a:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+header a {
+    color: red;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Ipad */
+
+@media (min-width: 768px) {
+
+    #logo {
+        max-width: 45vw;
+        height: auto;
+    }
+
+    #menuimage {
+        margin: 25px 25px;
+        max-width: 8vw;
+    }
+
+} 
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+    header {
+        position: static;
+    }
+    
+
+    #logo {
+        display: inline;
+        max-width: 45%;
+        padding: 50px 0px 0px 50px;
+    }
+
+    label[for=menutoggle] {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        float: right;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+        margin-top: 40px;
+    }
+
+    header nav ul li {
+        padding: 20px;
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    header nav ul {
+        margin-top: 70px;
+    }
+
+}
