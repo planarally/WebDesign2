@@ -8,19 +8,18 @@ header {
     background-color: white;
     border: 1px solid #e6e6e6;
     border-top: none;
-    z-index: 9999;
-    height:26vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 header .box {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 22px;
     margin-right: 10px;
-    display: block;
-    float: left;
+    display: inline-block;
     border-radius: 1px;
     width: 35px;
-    height: 30px;
+    height: 35px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -29,8 +28,7 @@ header h1 {
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 30px;
     font-weight: 700;
-    display: block;
-    float: left;
+    display: inline-block;
     padding-left: 10px;
     line-height: 40px;
     text-transform: uppercase;
@@ -48,76 +46,62 @@ header .myname:hover {
     display: none;
 }
 
-#togglebutton {
-    max-width: 10vw;
-    height: auto;
-    float: left;
+#menuimage {
+    height: 35px;
+    display: inline-block;
     margin-top: 10px;
     margin-left: 20px;
-    margin-right: 10px;
 }
 
 header nav ul {
     display: none;
-    padding-left: 0px;
-    list-style: none;
-    padding-bottom: 10px;
 }
 
 #menutoggle:checked + ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: block;
 }
 
 header nav ul li {
-    margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
-    color: #588c7e;
     font-size: 15px;
     text-align: center;
-    padding: 10px;
+    padding: 5px 10px;
 }
 
-header nav ul li:hover {
-    background-color: rgba(255, 255, 255, 1);
-    transition: all 0.3s ease-in-out;
+header nav ul li a {
+    color: #d96459;
 }
 
-header a {
-    color: #56704c;
+header nav ul li a:hover {
+    background-color: #f2e393;
 }
 
 /* Ipad */
 
 @media (min-width: 768px) {
 
-    #logo {
-        max-width: 45vw;
-        height: auto;
-    }
+    header .box {
+        width: 30px;
+        height: 30px;
+    } 
 
-    #togglebutton {
-        margin: 25px 25px;
-        max-width: 8vw;
+    #menuimage {
+        height: 30px;
+        display: inline-block;
+        margin-top: 10px;
+        margin-left: 20px;
     }
-
-} 
+}
 
 /* Desktop */
 
-@media (min-width: 1196px) {
+@media (min-width: 1024px) {
 
-    header {
-        position: static;
-    }
-    
-
-    #logo {
-        display: inline;
-        max-width: 45%;
-        padding: 50px 0px 0px 50px;
-    }
+    header .box {
+        width: 30px;
+        height: 30px;
+        float: left;
+    } 
 
     label[for=menutoggle] {
         display: none;
@@ -128,21 +112,12 @@ header a {
         float: right;
         flex-direction: row;
         justify-content: space-evenly;
-        width: 50%;
-        margin-top: 50px;
+        margin-top: 5px;
     }
 
     header nav ul li {
-        padding: 20px;
-        font-size: 35px;
-    }
-
-}
-
-@media (min-width: 1920px) {
-
-    header nav ul {
-        margin-top: 70px;
+        padding: 10px;
+        font-size: 15px;
     }
 
 }

@@ -17,7 +17,7 @@ footer {
 
 footer div {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 300;
     display: block;
     float: right;
@@ -30,13 +30,22 @@ footer div {
 
 footer a {
     color: #588c7e;
+    font-weight: 400;
 }
 
 footer a:hover {
     color: #f2e393;
 }
 
+/* Desktop */
+
 @media (min-width: 1024px) {
 
+    footer div {
+        font-size: 20px;
+    }
+    footer a {
+        font-weight: 300;
+    }
 
 }
