@@ -1,0 +1,140 @@
+/* DISPLAY PROPERTIES */
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-none {
+    display: none;
+}
+
+.dashed-l {
+    border-bottom: dashed;
+    border-top: dashed;
+    padding: 3px;
+}
+
+@media (min-width: 768px){
+
+    .d-md-inline-block {
+        display: inline-block;
+    }
+
+    .d-md-block {
+        display: block;
+    }
+
+    .d-md-none {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .d-lg-inline-block {
+        display: inline-block;
+    }
+
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-none {
+        display: none;
+    }
+}
+
+/* SPACING PROPERTIES */
+
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+/* TYPOGRAPHY */
+
+.text-center {
+    text-align: center;
+}
+
+/* COLUMNS */
+
+.one-column {
+    column-count: 1;
+}
+
+.two-column {
+    column-count: 2;
+    column-rule-style: solid;
+    column-gap: 40px;
+}
+
+.three-column {
+    column-count: 3;
+    column-rule-style: solid;
+    column-gap: 40px;
+}
+
+.four-column {
+    column-count: 4;
+    column-rule-style: solid;
+    column-gap: 40px;
+}
+
+@media (min-width: 768px){
+
+    .md-one-column {
+        column-count: 1;
+    }
+    
+    .md-two-column {
+        column-count: 2;
+        column-rule-style: solid;
+        column-gap: 40px;
+    }
+    
+    .md-three-column {
+        column-count: 3;
+        column-rule-style: solid;
+        column-gap: 40px;
+    }
+    
+    .md-four-column {
+        column-count: 4;
+        column-rule-style: solid;
+        column-gap: 40px;
+    }
+}
+
+@media (min-width: 1196px){
+
+    .lg-one-column {
+        column-count: 1;
+    }
+    
+    .lg-two-column {
+        column-count: 2;
+        column-rule-style: solid;
+        column-gap: 40px;
+    }
+    
+    .lg-three-column {
+        column-count: 3;
+        column-rule-style: solid;
+        column-gap: 40px;
+    }
+    
+    .lg-four-column {
+        column-count: 4;
+        column-rule-style: solid;
+        column-gap: 40px;
+    }
+
+}

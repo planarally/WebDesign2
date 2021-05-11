@@ -1,0 +1,42 @@
+/*-------FOOTER-------*/
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: auto;
+    height: 30px;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-bottom: none;
+    text-align: center;
+    float: right;
+    z-index: 9999;
+}
+
+footer div {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    float: right;
+    padding-left: 10px;
+    line-height: 20px;
+    text-transform: lowercase;
+    margin: 5px 5px 5px;
+    color: #b2b2b2;
+}
+
+footer a {
+    color: #588c7e;
+}
+
+footer a:hover {
+    color: #f2e393;
+}
+
+@media (min-width: 1024px) {
+
+
+}

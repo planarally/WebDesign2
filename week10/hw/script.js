@@ -14,7 +14,7 @@ let toggleTheImage = function(){
         menuIMG.src = "menuclosed.png";
     }
 }
-
+ 
 //gallery
 function myFunction(imgs) {
     // Get the expanded image
@@ -29,5 +29,5 @@ function myFunction(imgs) {
     expandImg.parentElement.style.display = "block";
   } 
 
-
+//navigation event
   menuTGGL.addEventListener("change", toggleTheImage);

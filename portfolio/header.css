@@ -1,0 +1,148 @@
+/* Phone n General */
+
+header {
+    position: sticky;
+	top: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    z-index: 9999;
+    height:26vw;
+}
+
+header .box {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    border-radius: 1px;
+    width: 35px;
+    height: 30px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    float: left;
+    padding-left: 10px;
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 5px 5px 0px;
+    color: #b2b2b2;
+}
+header .myname {
+    color: #8d4647;
+}
+header .myname:hover {
+    color: #f1ae72;
+}
+
+#menutoggle {
+    display: none;
+}
+
+#togglebutton {
+    max-width: 10vw;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+header nav ul {
+    display: none;
+    padding-left: 0px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+#menutoggle:checked + ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #588c7e;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul li:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.3s ease-in-out;
+}
+
+header a {
+    color: #56704c;
+}
+
+/* Ipad */
+
+@media (min-width: 768px) {
+
+    #logo {
+        max-width: 45vw;
+        height: auto;
+    }
+
+    #togglebutton {
+        margin: 25px 25px;
+        max-width: 8vw;
+    }
+
+} 
+
+/* Desktop */
+
+@media (min-width: 1196px) {
+
+    header {
+        position: static;
+    }
+    
+
+    #logo {
+        display: inline;
+        max-width: 45%;
+        padding: 50px 0px 0px 50px;
+    }
+
+    label[for=menutoggle] {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        float: right;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    header nav ul li {
+        padding: 20px;
+        font-size: 35px;
+    }
+
+}
+
+@media (min-width: 1920px) {
+
+    header nav ul {
+        margin-top: 70px;
+    }
+
+}
