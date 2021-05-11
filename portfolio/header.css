@@ -73,7 +73,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #f2e393;
+    color: #f2e393;
 }
 
 /* Ipad */
@@ -118,6 +118,14 @@ header nav ul li a:hover {
     header nav ul li {
         padding: 10px;
         font-size: 15px;
+    }
+
+    header nav ul li a {
+        color: #588c7e;
+    }
+
+    header nav ul li a:hover {
+        color: #f2e393;
     }
 
 }
