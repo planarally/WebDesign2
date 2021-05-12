@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to jQuery</title>
+
+    <style>
+        img {
+            position: relative;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div id="paragraphs">
+    <p id="myP">インクで書かなければだめですか。 インクで書かなければだめですか。 イベントが成功したのは貴殿のたゆみ無い努力と献身のおかげです。 いつ神戸に来るのか教えて下さい。 あんたらの名前なんか興味ないね。どうせこの仕事が終わるとお別れだ。 社長さんの車種と色は？ エコロジーのために堪え忍ぶのではなく、自然と調和した住環境の快適性が必要である。 いや、大丈夫だ。 日没は言葉では表現できないほど美しかった。 日本人ならそんなことはけっしてしないでしょう。</p>
+</div>
+
+<div class="img-container">
+    <img src="saber.png" alt="saber">
+</div>
+
+    <button id="addMore">Add another line</button>
+    <button id="removeSome">Remove clones</button>
+    <button id="hideImage">Hide image</button>
+    <button id="showImage">Show image</button>
+    <button id="toggleImage">Toggle image</button>
+    <button id="fadeImgOut">Fade out image</button>
+    <button id="slideImgIn">Slide in image</button>
+    <button id="customAnim">Custom Animation</button>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        // let addTextB = document.getElementById("addMore");
+        // let textP = document.getElementById("myP");
+
+        // addTextB.addEventListener("click", function(){
+        //     let contentP = textP.innerText;
+
+        //     let newP = document.createElement('p');
+        //     newP.innerText = contentP;
+        //     document.getElementById("paragraphs").appendChild(newP);
+        // })
+        
+        $("#addMore").click(function(){
+            let cloneP = $("#myP").clone();
+            cloneP.addClass("cloned");
+            $("#paragraphs").append( cloneP );
+        })
+
+        $("#removeSome").click(function(){
+            $(".cloned").remove();
+        })
+
+        $("#hideImage").click(function(){
+            $(".img-container img").hide();
+        })
+
+        $("#showImage").click(function(){
+            $(".img-container img").show();
+        })
+        
+        $("#toggleImage").click(function(){
+            $(".img-container img").toggle();
+        })
+
+        $("#fadeImgOut").click(function(){
+            $(".img-container img").fadeOut(2000, function(){
+                $(".img-container").append("<h3>I Have Finished The Cycle</h3>")
+            });
+        })
+
+        $("#slideImgIn").click(function(){
+            $(".img-container img").slideDown(2000, function(){
+                $(".img-container h3").remove();
+            });
+        })
+
+        $("#customAnim").click(function(){
+            $(".img-container img").animate( 
+                //objects with css properties to animate:
+                {
+                    height: 0, 
+                    left: 500
+                } 
+            );
+        })
+
+    </script>
+
+</body>
+</html>
