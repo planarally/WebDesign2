@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="libs/jqueryui/jquery-ui.css">
+    <style>
+        .draggable-comp {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .checkout-area {
+            min-height: 300px;
+            border: 1px solid darkorchid;
+            background-color: lightblue;
+        }
+    </style>
+    <title>jQuery UI example</title>
 </head>
 <body>
     
+    <div id="jqueryUI-tabs">
+        <ul>
+          <li><a href="#brian">brian eno</a></li>
+          <li><a href="#fela">fela kuti</a></li>
+          <li><a href="#masuyoshi">masuyoshi takanaka</a></li>
+        </ul>
+        <div id="brian">
+          <p>SONGS FOR AIRPORTS</p>
+        </div>
+        <div id="fela">
+          <p>COFFIN FOR THE HEAD OF STATE</p>
+        </div>
+        <div id="masuyoshi">
+          <div class="draggable-comp" style="background-image: url('https://www.music-bazaar.com/album-images/vol1002/725/725130/2574739-big/Ukulele-Seychelles-cover.jpg');"></div>
+          
+          <div class="draggable-comp" style="background-image: url('http://www.rekord.net/cover/bigthumbs/rekord.11856.jpg');"></div>
+          
+          <div class="draggable-comp" style="background-image: url('http://alllossless.net/uploads/posts/2017-11/1509506069_masayoshi-takanaka-the-rainbow-goblins.jpg');"></div>
+
+          <div class="checkout-area">
+              <h2>album cart</h2>
+              <h3>Selected: <span id="selectCount">0</span></h3>
+          </div>
+        </div>
+    </div>
+
+    
+    <!-- BASE JQUERY LIBRARY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <!-- JQUERY UI -->
+    <script src="libs/jqueryui/jquery-ui.js"></script>
+    <!-- TABS -->
+    <script>
+        $(document).ready(function(){
+        let alreadyAdded = [];
+        let count = 0;
+        let myTabs = $('#jqueryUI-tabs').tabs({
+              collapsible: true,
+              event: "click"
+          });
+
+          myTabs.find(".ui-tabs-nav").sortable({
+              axis: "x",
+              stop: function() {myTabs.tabs("refresh")}
+          });
+
+            $(".draggable-comp").draggable();
+            $(".checkout-area").droppable({
+                drop: function(event, ui){
+                    if (alreadyAdded.includes(ui.draggable[0])){
+                        //nothin
+                    }
+                    else {
+                        alreadyAdded.push(ui.draggable[0]);
+                        count = count+1;
+                        $('#selectCount').text(count);
+                    }
+                    $(this).addClass('ui-state-highlight');
+
+                }
+            });
+
+        });
+    </script>
 </body>
 </html>
