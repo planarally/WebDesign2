@@ -9,29 +9,27 @@
 </head>
 <body>
 
-
-
     
 <div class="flex-container">
     <div class="img-container w-sm-25">
-        <img src="1.jpg" alt="pink">
+        <img src="1.jpg" alt="pink" id="pinkRose">
     </div>
     <div class="img-container w-sm-25">
-        <img src="2.jpg" alt="cream">
+        <img src="2.jpg" alt="cream" id="creamRose">
     </div>
-    <div class="img-container w-sm-25">
+    <div class="img-container w-sm-25" id="beeRose">
         <img src="3.jpg" alt="bee">
     </div>
-    <div class="img-container w-sm-25">
+    <div class="img-container w-sm-25" id="speckleRose">
         <img src="4.jpg" alt="speckle">
     </div>
-    <div class="img-container w-sm-25">
+    <div class="img-container w-sm-25 hide" id="multiRose">
         <img src="5.jpg" alt="multi">
     </div>
-    <div class="img-container w-sm-25">
+    <div class="img-container w-sm-25 hide" id="whiteRose">
         <img src="6.jpg" alt="white">
     </div>
-    <div class="img-container w-sm-25">
+    <div class="img-container w-sm-25 hide" id="purpleRose">
         <img src="7.jpg" alt="purple">
     </div>
 </div>
@@ -42,7 +40,21 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
+            let pinkR = $("#pinkRose");
+            let creamR = $("#creamRose");
+            let beeR = $("#beeRose");
+            let speckleR = $("#speckleRose");
+            let multiR = $("#multiRose");
+            let whiteR = $("#whiteRose");
+            let purpleR = $("#purpleRose");
 
+        $("#left").click(function(){
+            pinkR.addClass("hide");
+            multiR.removeClass("hide")
+        })
+        $("#right").click(function(){
+
+        })
     </script>
 
 </body>
