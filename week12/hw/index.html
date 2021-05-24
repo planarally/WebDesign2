@@ -4,38 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="grid.css">
     <title>ROSE GALLERY</title>
 </head>
+<style>
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.item {
+    margin: 5px;
+    min-width: 300px;
+}
+
+.button-holder {
+    display: block;
+    margin: auto;
+}
+
+img {
+    max-width: 250px;
+}
+
+</style>
+
 <body>
 
     
-<div class="flex-container">
-    <div class="img-container w-sm-25">
+<div class="container">
+
+    <div class=item>        
+        <div class="button-holder">
+                <button id="showP">show</button>
+                <button id="hideP">hide</button>
+        </div>
         <img src="1.jpg" alt="pink" id="pinkRose">
     </div>
-    <div class="img-container w-sm-25">
+
+    <div class=item>        
+        <div class="button-holder">
+                <button id="showC">show</button>
+                <button id="hideC">hide</button>
+        </div>
         <img src="2.jpg" alt="cream" id="creamRose">
     </div>
-    <div class="img-container w-sm-25" id="beeRose">
-        <img src="3.jpg" alt="bee">
+
+    <div class=item>         
+        <div class="button-holder">
+             <button id="showB">show</button>
+             <button id="hideB">hide</button>
+        </div>
+        <img src="3.jpg" alt="bee" id="beeRose">
+
     </div>
-    <div class="img-container w-sm-25" id="speckleRose">
-        <img src="4.jpg" alt="speckle">
+
+    <div class=item>
+        <div class="button-holder">
+            <button id="showW">show</button>
+            <button id="hideW">hide</button>
+        </div>
+        <img src="6.jpg" alt="white" id="whiteRose">
     </div>
-    <div class="img-container w-sm-25 hide" id="multiRose">
-        <img src="5.jpg" alt="multi">
-    </div>
-    <div class="img-container w-sm-25 hide" id="whiteRose">
-        <img src="6.jpg" alt="white">
-    </div>
-    <div class="img-container w-sm-25 hide" id="purpleRose">
-        <img src="7.jpg" alt="purple">
-    </div>
-</div>
-<div class="button-holder">
-    <button id="left">❮❮</button>
-    <button id="right">❯❯</button>
+    
 </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -43,18 +75,34 @@
             let pinkR = $("#pinkRose");
             let creamR = $("#creamRose");
             let beeR = $("#beeRose");
-            let speckleR = $("#speckleRose");
-            let multiR = $("#multiRose");
             let whiteR = $("#whiteRose");
-            let purpleR = $("#purpleRose");
 
-        $("#left").click(function(){
-            pinkR.addClass("hide");
-            multiR.removeClass("hide")
+        $("#hideP").click(function(){
+             pinkR.hide();
+         })
+        $("#showP").click(function(){
+            pinkR.show();
         })
-        $("#right").click(function(){
+        $("#hideC").click(function(){
+             creamR.hide();
+         })
+        $("#showC").click(function(){
+            creamR.show();
+        })
+        $("#hideB").click(function(){
+             beeR.hide();
+         })
+        $("#showB").click(function(){
+            beeR.show();
+        })
+        $("#hideW").click(function(){
+             whiteR.hide();
+         })
+        $("#showW").click(function(){
+            whiteR.show();
+        })
 
-        })
+
     </script>
 
 </body>
