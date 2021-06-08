@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link type="text/css" rel="stylesheet" href="lightslider.css" />
+    <title>HIRE O.C.</title>
+</head>
+<body>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="lightslider.js"></script> 
+  <script>
+     $(document).ready(function() {
+    $("#content-slider").lightSlider({
+              loop:true,
+              keyPress:true
+          });
+          $('#image-gallery').lightSlider({
+              gallery:false,
+              item:1,
+              thumbItem:9,
+              slideMargin: 0,
+              speed:500,
+              auto:true,
+              loop:true,
+              onSliderLoad: function() {
+                  $('#image-gallery').removeClass('cS-hidden');
+              }  
+          });
+  });
+  </script>
+
+    <header>
+            <nav>
+                <a href="index.html"><img src="img/logo.png" alt="logo" id="logo"></a>
+                <label for="menutoggle"><img src="img/menuclosed.png" id="menuimage">
+                </label>
+                <input type="checkbox" id="menutoggle">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://www.facebook.com/hireorangecounty"><img src="img/facebook.png" class="socim"></a><a href="https://www.instagram.com/hireoc/"><img src="img/instagram.png" class="socim"></a><a href="https://www.linkedin.com/company/hireoc"><img src="img/linkedin.png" class="socim"></a></li>
+                    <li><a href="donate.html" id="donate">Donate</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+
+<div class="jumbotron"><h1>FIND YOUR PLACE</h1><h2>Hub for Integration, Reentry & Employment (H.I.R.E.) works to maximize the skills and talents of justice involved youth and adults through community building, advocacy and employment.</h2></div>
+<br>
+<center>
+<div class="demo">
+  <div class="item">            
+      <div class="clearfix" style="max-width:1024px;">
+          <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+            <li>
+              <img src="carousel/ups.png">
+          </li>
+          <li>
+            <img src="carousel/help.png">
+          </li>
+          <li>
+            <img src="carousel/mlk.png">
+          </li>
+          <li>
+            <img src="carousel/info.png">
+          </li>
+          </ul>
+      </div>
+  </div>
+</center>
+
+<ul id="lightSlider">
+
+</ul>
+<br>
+    </main>
+
+    <footer>
+      <section class="footer-flex">
+          <div class="w-sm-50 w-md-25 w-lg-33">
+              <div class="footer-wrapper text-center"> 
+                  <h5 class="txt-white">Site Map</h5>
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="w-sm-50 w-md-25 w-lg-33">
+              <div class="footer-wrapper text-center"> 
+                  <h5 class="txt-white">Follow</h5>
+                  <ul>
+                    <li><a href="https://www.facebook.com/hireorangecounty">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/hireoc/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/hireoc">LinkedIn</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="w-md-50 w-lg-33">
+            <div class="footer-wrapper text-center"> 
+              <h5 class="txt-white">Website by Maddison</h5>
+              <p class="txt-paleblue">nielsen_maddison_cla@student.smc.edu</p>
+              <p class="txt-paleblue">gr des 66 / safioulline</p>
+            </div>
+        </div>
+      </section>
+  </footer>
+
+
+
+</body>
+</html>

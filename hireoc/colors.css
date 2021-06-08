@@ -1,0 +1,60 @@
+/* Background Colors */
+
+.bg-navy {
+    background-color: #364c63;
+}
+
+.bg-blue {
+    background-color: #5562b8;
+}
+
+.bg-mustard {
+    background-color: #c99a1d;
+}
+
+.bg-yellow {
+    background-color: #f3b340;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-paleblue {
+    background-color: #eff0f8;
+}
+
+
+/* Text Colors */
+
+.txt-navy {
+    color: #364c63;
+}
+
+.txt-blue {
+    color: #5562b8;
+}
+
+.txt-mustard {
+    color: #c99a1d;
+}
+
+.txt-yellow {
+    color: #f3b340;
+}
+
+.txt-black {
+    color: #000000;
+}
+
+.txt-white {
+    color: #ffffff;
+}
+
+.txt-paleblue {
+    color: #eff0f8;
+}

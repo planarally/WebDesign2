@@ -1,0 +1,165 @@
+/* Phone n General */
+
+header {
+    position: sticky;
+    min-height: 90px;
+	top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 999999;
+}
+
+#menutoggle {
+    display: none;
+}
+
+#logo {
+    height: auto;
+    max-width: 250px;
+    padding-left: 25px;
+}
+
+#menuimage {
+    max-width: 10vw;
+    height: auto;
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+header nav ul {
+    display: none;
+    padding-left: 0px;
+    list-style: none;
+    padding-bottom: 10px;
+    height: 90vh;
+    margin-bottom: 0px;
+    
+}
+
+#menutoggle:checked + ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header nav ul li {
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 300;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    color: #5562b8;
+}
+
+.socim {
+    width: 30px;
+    height: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid white; 
+}
+
+.socim:hover {
+    border-bottom: 1px solid #5562b8;
+}
+
+#donate {
+    background-color: #f3b340;
+    padding: 12px 40px;
+    border-radius: 15px;
+    color: #364c63;
+    font-weight: 500;
+}
+
+/* Ipad */
+
+@media (min-width: 768px) {
+
+    #logo {
+        max-width: 45vw;
+        height: auto;
+        padding: 20px;
+    }
+
+    #menutoggle:checked + ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    header nav ul {
+        height: auto;
+    }
+    header nav ul li {
+        margin-top: 10px;
+        font-family: 'Prompt', sans-serif;
+        letter-spacing: 2px;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        font-weight: 300;
+    }
+
+    #menuimage {
+        margin: 40px;
+    }
+
+} 
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+    header {
+        position: static;
+    }
+    
+
+    #logo {
+        display: inline;
+        max-width: 400px;
+        padding-right: 0px;
+    }
+
+    label[for=menutoggle] {
+        display: none;
+    }
+
+    header nav ul {
+        display: flex;
+        float: right;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 58%;
+        margin-top: 35px;
+    }
+
+    header nav ul li {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .socim {
+        width: 20px;
+        height: auto;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-bottom: 2px;
+        border-bottom: 1px solid white; 
+    }
+
+}
+
+@media (min-width: 1114px) {
+    #logo {
+        padding-left: 50px;
+    }
+}

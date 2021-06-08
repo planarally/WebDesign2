@@ -1,0 +1,80 @@
+b {
+    font-weight: 600;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 5vh;
+}
+
+h2 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 800;
+    font-size: 4vh;
+}
+
+h3 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2vh;
+}
+
+h4 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+}
+
+h5 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.5vh;
+    line-height: 5px;
+}
+
+p {
+    line-height: 19px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+    color: #c99a1d;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+}
+
+@media (min-width: 768px){
+
+    h4 {
+        font-size: 3vw;
+    }
+
+}
+
+
+@media (min-width: 1196px){
+
+
+    p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    h1 {
+        font-size: 6vh;
+    }
+    
+    h2 {
+        font-size: 4vh;
+    }
+    
+    h3 {
+        font-size: 3vh;
+    }
+    
+    h4 {
+        font-size: 3vh;
+    }
+
+}

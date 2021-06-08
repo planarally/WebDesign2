@@ -1,0 +1,82 @@
+@import url('reset.css');
+@import url('nav.css');
+@import url('grid.css');
+@import url('footer.css');
+@import url('utils.css');
+@import url('text.css');
+@import url('colors.css');
+
+.bgimg {
+    width: 100%;
+    background-image: url("img/ocean.jpg");
+    background-position: top;
+    min-height: 90vh;
+}
+
+.boxxy {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 50px 15px;
+}
+
+.boxxy h1 {
+    display: block;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    font-size: 5vh;
+    color: #5562b8;
+    font-weight: 700;
+}
+
+
+.boxxy p {
+    position: block;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.boxxy ul {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+}
+
+.boxxy ul li {
+    margin: 10px;
+}
+
+@media (min-width: 768px){
+    .boxxy h1 {
+        font-size: 5vh;
+    }
+
+    .boxxy {
+        padding: 100px;
+        margin: 0px 50px;
+    }
+
+
+}
+
+@media (min-width: 1024px){
+
+    .boxxy h1 {
+        font-size: 5vh;
+    }
+
+    .boxxy {
+        padding: 100px;
+        margin: 0px 100px;
+    }
+
+    .boxxy p {
+        font-size: 18px;
+    }
+    
+    .boxxy ul {
+        font-size: 18px;
+    }
+
+}

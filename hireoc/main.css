@@ -1,0 +1,91 @@
+@import url('reset.css');
+@import url('nav.css');
+@import url('grid.css');
+@import url('footer.css');
+@import url('utils.css');
+@import url('text.css');
+@import url('colors.css');
+
+
+.jumbotron {
+    width: 100%;
+    background-image: url("img/handsraisedsmall.jpg");
+    background-position: center;
+    text-align: center;
+    min-height: 70vh;
+}
+
+.jumbotron h1 {
+    position: absolute;
+    margin-top: 20px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Prompt', sans-serif;
+    font-size: 5vh;
+    color: #f3b340;
+    text-align: center;
+    text-shadow: -2px 2px 5px black;
+    font-weight: 700;
+}
+
+
+.jumbotron h2 {
+    position: absolute;
+    margin: 100px 50px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3vh;
+    color: #eff0f8;
+    text-align: center;
+    text-shadow: -2px 2px 7px black;
+    font-weight: 700;
+}
+
+@media (min-width: 768px){
+    .jumbotron h1 {
+        margin-top: 20px;
+        font-size: 7vh;
+    }
+
+    .jumbotron h2 {
+        margin: 150px 50px;
+    }
+    
+
+}
+
+@media (min-width: 1024px){
+    .jumbotron {
+        background-position: top;
+        background-image: url("img/handsraised1024.jpg");
+    }
+
+    .jumbotron h1 {    
+        margin-top: 50px;
+        font-size: 12vh;
+    }
+
+    .jumbotron h2 {
+        margin: 190px 150px;
+        font-size: 4vh;
+    }
+}
+
+@media (min-width: 1218px){
+    .jumbotron {
+        background-position: top;
+        height: 90vh;
+        background-image: url("img/handsraised1024.jpg");
+    }
+
+    .jumbotron h1 {    
+        margin-top: 50px;
+        font-size: 12vh;
+    }
+
+    .jumbotron h2 {
+        margin: 200px 300px;
+        font-size: 4vh;
+    }
+}

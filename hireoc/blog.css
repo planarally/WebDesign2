@@ -1,0 +1,65 @@
+@import url('reset.css');
+@import url('nav.css');
+@import url('grid.css');
+@import url('footer.css');
+@import url('utils.css');
+@import url('text.css');
+@import url('colors.css');
+
+
+article {
+    min-height: 650px;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+article img {
+    max-height: 280px;
+    height: auto;
+    margin: 10px;
+    display: block;
+}
+
+.register {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    padding: 10px;
+    background-color: #f3b340;
+    font-family: 'Prompt', sans-serif;
+    color: #364c63;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+article ul {
+    list-style: none;
+    padding-left: 30px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+@media (min-width: 768px){
+    
+    article {
+        min-height: 680px;
+    }
+
+}
+
+@media (min-width: 1024px){
+    
+    article {
+        min-height: 550px;
+    }
+
+    article img {
+        max-height: 180px;
+        height: auto;
+        margin: 15px;
+        display: block;
+    }
+
+}

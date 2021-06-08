@@ -1,0 +1,41 @@
+footer {
+    display: block;
+    width: 100%;
+    background-color: #364c63;
+    bottom: 0;
+    height: 25px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    margin: 0 10px;
+}
+
+footer a {
+    font-family: 'Source Serif Pro', serif;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+footer ul {
+    padding-left: 10px;
+    list-style: none;
+}
+footer ul li {
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px){
+    footer {
+        height: 175px;
+    }
+}

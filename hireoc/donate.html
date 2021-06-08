@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="donate.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <title>HIRE O.C.</title>
+</head>
+<body>
+
+    <header>
+            <nav>
+                <a href="index.html"><img src="img/logo.png" alt="logo" id="logo"></a>
+                <label for="menutoggle"><img src="img/menuclosed.png" id="menuimage">
+                </label>
+                <input type="checkbox" id="menutoggle">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://www.facebook.com/hireorangecounty"><img src="img/facebook.png" class="socim"></a><a href="https://www.instagram.com/hireoc/"><img src="img/instagram.png" class="socim"></a><a href="https://www.linkedin.com/company/hireoc"><img src="img/linkedin.png" class="socim"></a></li>
+                    <li><a href="donate.html" id="donate">Donate</a></li>
+                </ul>
+            </nav>
+    </header>
+
+<main>
+<div class="flex-container">
+  <article class="w-md-40">
+    <div class="donation-box">
+      <div class="title">Donation Information</div>
+        <div class="fields">
+          <input type="text" id="firstName" placeholder="First Name">
+          <input type="text" id="lastName" placeholder="Last Name">
+          <input type="text" id="email" placeholder="Email">
+          <input type="text" id="creditcard" placeholder="Credit Card"> 
+          <input type="text" id="exp" placeholder="Expiration">
+          <input type="text" id="security" placeholder="Security">
+        </div>
+                    
+        <div class="amount">
+          <div class="button">$5</div>
+          <div class="button">$20</div>
+          <div class="button">$50</div>
+          <div class="button">$70</div>
+          <div class="button">$100</div>
+          <div class="button">$<input type="text" class="set-amount" placeholder=""></div>
+        </div>
+                    
+        <div class="switch">
+          <input type="radio" class="switch-input" name="view" value="One-Time" id="one-time" checked="">
+          <label for="one-time" class="switch-label switch-label-off">One-Time</label>
+          <input type="radio" class="switch-input" name="view" value="Monthly" id="monthly">
+          <label for="monthly" class="switch-label switch-label-on">Monthly</label>
+          <span class="switch-selection"></span>
+        </div>
+                
+        <div class="checkboxes">
+          <input type="checkbox" id="receipt" class="checkbox">
+          <label for="receipt">Email Me A Receipt</label>
+                <br>
+          <input type="checkbox" id="anon" class="checkbox">
+          <label for="anon">Give Anonymously</label>
+                <br>
+          <input type="checkbox" id="list" class="checkbox">
+          <label for="list">Add Me To Email List</label>
+        </div>
+              
+        
+        <div class="donate-button">
+          <button class="donatebutton">donate now</button>
+      </div>
+    </div>
+  </article>
+
+  <article class="w-md-40">
+    <div class="inside-wrapper2">
+    <h2>How You Help Us</h2>
+    <p>2020 was a shock to everyone's system. What it demonstrated more than ever, especially in conjunction with the Black Lives Matter protests, is that it is more important than every to reach out to all memebers of our community to ensure everyone has an equal shot at safety and stability. Our goal at H.I.R.E is to help reintegrate previously-incarcerated people back into the community of OC. With no federal or state funding, our work depends on the generosity of individuals and foundations.</p>
+    <p>As a recently-founded company, our main goals are to build up community advocacy and engagement, and strengthening our team. Through your donation, we can:</p>
+    <ul>
+      <li>Refine and perfect our program operations</li>
+      <li>Invest in strategic partnerships</li>
+      <li>Strengthen our relationship with our funders</li>
+      <li>Design in-depth voluteer education</li>
+      <li>Provide clients with the most effective and impactful programming</li>
+    </ul>
+    <p>The impact of even the smallest donation can be measured, and our 100% volunteer-run organization will help get supplies to those who need them most.</p>
+    <ul>
+      <li>$5 - Paper and pencils for a month of the program</li>
+      <li>$8 - Cost of shipping a box of parole clothing</li>
+      <li>$30 - Providing a funded transportation card</li>
+      <li>$35 - Backpacks with toiletries, snacks, other essentials</li>
+      <li>$40 - A suitcase and a wallet</li>
+      <li>$70 - Prepaid phone for a month</li>
+      <li>$100 - A set of interview clothes</li>
+    </ul>
+    </p></div>
+  </article>
+
+</div>    
+</main>
+
+    <footer>
+      <section class="footer-flex">
+          <div class="w-sm-50 w-md-25 w-lg-33">
+              <div class="footer-wrapper text-center"> 
+                  <h4 class="txt-white">Site Map</h4>
+                  <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="w-sm-50 w-md-25 w-lg-33">
+              <div class="footer-wrapper text-center"> 
+                  <h4 class="txt-white">Follow</h4>
+                  <ul>
+                    <li><a href="https://www.facebook.com/hireorangecounty">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/hireoc/">Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/company/hireoc">LinkedIn</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="w-md-50 w-lg-33">
+            <div class="footer-wrapper text-center"> 
+              <h4 class="txt-white">Website by Maddison</h4>
+              <p class="txt-paleblue">nielsen_maddison_cla@student.smc.edu</p>
+              <p class="txt-paleblue">gr des 66 / safioulline</p>
+            </div>
+        </div>
+      </section>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="donate.js"></script>
+
+</body>
+</html>

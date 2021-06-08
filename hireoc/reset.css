@@ -1,0 +1,26 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #eff0f8;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
