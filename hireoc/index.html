@@ -16,14 +16,11 @@
   <script src="lightslider.js"></script> 
   <script>
      $(document).ready(function() {
-    $("#content-slider").lightSlider({
-              loop:true,
-              keyPress:true
-          });
           $('#image-gallery').lightSlider({
-              gallery:true,
-              item:1,
-              thumbItem:9,
+             gallery: false,
+              item: 1,
+              loop:true,
+              thumbItem:4,
               slideMargin: 0,
               speed:500,
               auto:true,
@@ -55,10 +52,7 @@
 <div class="jumbotron"><h1>FIND YOUR PLACE</h1><h2>Hub for Integration, Reentry & Employment (H.I.R.E.) works to maximize the skills and talents of justice involved youth and adults through community building, advocacy and employment.</h2></div>
 <br>
 <center>
-  <div class="demo">
-    <div class="item">            
-        <div class="clearfix" style="max-width:1024px;">
-            <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+  <ul id="image-gallery">
               <li>
                 <img src="carousel/ups.png">
             </li>
@@ -71,9 +65,7 @@
             <li>
               <img src="carousel/info.png">
             </li>
-            </ul>
-        </div>
-    </div>
+          </ul>
 </center>
 
 <br>
