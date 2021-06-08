@@ -8,29 +8,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">  
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet"  href="lightslider.css"/>
+    <link rel="stylesheet"  href="libs/lightslider/src/css/lightslider.css"/>
+    <link rel="stylesheet" href="libs/jquery/jquery-ui.theme.css">
     <title>HIRE O.C.</title>
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="libs/jquery/jquery-ui.js"></script>
+<script src="libs/lightslider/src/js/lightslider.js"></script> 
+<script>
+   $(document).ready(function() {
+        $('#image-gallery').lightSlider({
+           gallery: false,
+            item: 1,
+            loop:true,
+            thumbItem:4,
+            slideMargin: 0,
+            speed:500,
+            auto:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#image-gallery').removeClass('cS-hidden');
+            }  
+        });
+});
+</script>
 <body>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="lightslider.js"></script> 
-  <script>
-     $(document).ready(function() {
-          $('#image-gallery').lightSlider({
-             gallery: false,
-              item: 1,
-              loop:true,
-              thumbItem:4,
-              slideMargin: 0,
-              speed:500,
-              auto:true,
-              loop:true,
-              onSliderLoad: function() {
-                  $('#image-gallery').removeClass('cS-hidden');
-              }  
-          });
-  });
-  </script>
 
     <header>
             <nav>
@@ -103,7 +105,6 @@
       </section>
   </footer>
 
-
-
+  <script src="script.js"></script>
 </body>
 </html>
